@@ -85,7 +85,7 @@ UBUNTU_CODENAME=`lsb_release -c -s`
 
 log "Add GNS3 repository"
 
-if [ "$UBUNTU_CODENAME" == "eoan" ]
+if [ "$UBUNTU_CODENAME" == "bionic" ]
 then
     if [ $UNSTABLE == 1 ]
     then
@@ -205,7 +205,7 @@ EOFC
 chown -R gns3:gns3 /etc/gns3
 chmod -R 700 /etc/gns3
 
-if [ "$UBUNTU_CODENAME" == "eoan" ]
+if [ "$UBUNTU_CODENAME" == "bionic" ]
 then
 cat <<EOFI > /etc/init/gns3.conf
 description "GNS3 server"
