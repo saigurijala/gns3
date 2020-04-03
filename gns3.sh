@@ -42,7 +42,7 @@ USE_IOU=0
 I386_REPO=0
 UNSTABLE=0
 
-TEMP=`getopt -o h --long with-openvpn,with-iou,with-i386-repository,unstable,help -n 'gns3-remote-install.sh' -- "$@"`
+TEMP=`getopt -o h --long with-openvpn,with-iou,with-i386-repository,unstable,help -n 'gns3-gns3.sh' -- "$@"`
 if [ $? != 0 ]
 then
   help
