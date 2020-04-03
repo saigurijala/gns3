@@ -34,7 +34,6 @@ function log {
   echo "=> $1"  >&2
 }
 
-fi
 
 # Read the options
 USE_VPN=0
